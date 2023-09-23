@@ -1,10 +1,7 @@
 #bash ./api/cicd.sh
 # Pulling the latest code from the repository
-git pull https://github.com/DeltaX-9/api.git
-
-
+git pull
 # Installing the dependencies
 cd ./platform && npm i && cd ../
-
 exit 0
 
