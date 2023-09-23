@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Dependency directories
+pids/
+logs/
+results/
+
+# Optional: Uncomment the following lines if you use yarn instead of npm
+# yarn.lock
+
+# Optional: Uncomment the following line if you use VSCode for development
+# .vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Optional: Uncomment the following lines if you are using TypeScript
+# Compiled JS files
+# dist/
+# tsconfig.tsbuildinfo
+
+# Optional: Uncomment the following line if you use Webpack
+# build/
