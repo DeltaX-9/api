@@ -9,6 +9,8 @@ router.post('/write-crawler-info',di_controller.writeCrawlerInfo);
 
 router.get('/get-crawler-data',di_controller.getCrawlerData);
 
+router.get('/get-scrapped-data',di_controller.fetchScrappedData);
+
 module.exports = router;
 
 

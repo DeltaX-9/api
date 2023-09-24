@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 })
 
 
-app.use('/di', require('./routes/di'))
+app.use('/di', require('./routes/di'));
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)

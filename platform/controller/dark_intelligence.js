@@ -66,3 +66,20 @@ module.exports.writeCrawlerInfo = async(req,res) => {
 }
 
 
+module.exports.fetchScrappedData = async(req,res) => {
+  try {
+    const db = mongoClient.db('deltax');
+    const collection = db.collection('info');
+
+    const datax = await collection.findOne({
+      key: "scrapped"
+    })
+
+    return res.send(datax);
+
+  } catch (error) {
+    console.log(error)
+    return res.send({message: error.message});
+  }
+}
+
